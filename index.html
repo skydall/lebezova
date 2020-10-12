@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="Css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
 
@@ -14,13 +15,13 @@
         <div class="header">
            <nav>
                <ul>
-                <li><a href="#">В начало</a></li>
+                <li><a href="#">Начальная</a></li>
                 <li><a href="#portfolio">Портфолио</a></li>
                 <li><a href="#contacts">Контакты</a></li>
             </ul>
         </nav>
-            <h1>Марченко Иван</h1>
-            <p class="subtitle">Флирансер, веб-разработчик, <br>создание сайтов</p>
+            <h1 data-wow-iteration="infinite" class="wow animate__pulse">Марченко Иван</h1>
+            <p class="subtitle wow animate__flash">Флирансер, веб-разработчик, <br>создание сайтов</p>
             <a href="#portfolio" class="header-arrow">
                     <img src="image/arrow.png">
             </a>
@@ -28,25 +29,25 @@
     </header>
     <main id="portfolio">
         <div class="contarner portfolio">
-            <h2>Портфолио</h2>
+            <h2 class=" wow animate__rubberBand">Портфолио</h2>
             <div class="card-wripper">
-                <div class="card">
+                <div class="card wow animate__bounceInLeft">
                     
                                 <img src="image/block11.jpg" alt="">
                                 <h3>Многостраничный сайт</h3>
                                 <p>Верстка мноргостраничного сайта</p>
                             </div>
-                            <div class="card">
+                            <div class="card wow animate__bounceInRight">
                                 <img src="image/block11.jpg" alt="">
                                 <h3>Многостраничный сайт</h3>
                                 <p>Верстка мноргостраничного сайта</p>
                             </div>
-                            <div class="card">
+                            <div class="wow animate__bounceInLeft card">
                                 <img src="image/block11.jpg" alt="">
                                 <h3>Многостраничный сайт</h3>
                                 <p>Верстка мноргостраничного сайта</p>
                             </div>
-                            <div class="card">
+                            <div class="card wow animate__bounceInRight">
                                 <img src="image/block11.jpg" alt="">
                                 <h3>Многостраничный сайт</h3>
                                 <p>Верстка мноргостраничного сайта</p>
@@ -58,7 +59,7 @@
     <footer id="contacts">
         <div class="contarner wripper-footer">
             <div class="footer-copyright footer-col"> 
-                <h3> &copy; Марченко Акимченов</h3>
+                <h3> &copy; Марченко</h3>
                 <p>HTML-верстка и разработка сайта</p>
             </div>
         
@@ -74,12 +75,14 @@
             <div class="footer-contact footer-col">
                 <button>СВЯЗАТЬСЯ ВКОНТАКТЕ</button>
                 <p>Для связи нажмите на кнопку</p>
-                
             </div>
         </div>       
     </footer>
     <script src="libs/jquery/jquery-3.5.1.min.js"></script>
     <script src="libs/vide/jquery.vide.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="js/my.js"></script>
+
     </body>
     </html>

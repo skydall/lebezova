@@ -26,10 +26,15 @@ header li {
 header li a {
     text-decoration: none;
     color: #fff;
+    transition: all 0.3s ease-in;
 }
 
 header ul:hover li a {
     filter: blur(3px);
+}
+header li a:hover {
+    color: #070707;
+    font-size: 23px;
 }
 
 header ul:hover li a:hover {
@@ -187,6 +192,12 @@ footer {
     padding: 5px 20px 5px;
     font-size: 20px;
     color: #fff;
+}
+.footer-contact button:hover {
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46,229,157,.4);
+    color: white;
+    transform: translateY(-7px);
 }
 
 .footer-contact p {
